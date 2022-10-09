@@ -1,0 +1,126 @@
+body {
+    margin: 0
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* TYPOGRAPHY */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dog-name-age {
+    color: #F8F8F8;
+}
+
+.dog-phrase {
+    color: #B7B7B7;
+}
+
+/* LAYOUT */
+
+body {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0;
+}
+
+.icon-profile,
+.icon-chat {
+    width: 7%;
+}
+
+.logo {
+    width: 13%;
+    margin: 0 auto;
+}
+
+.icon-profile {
+    margin-left: 1em;
+}
+
+.icon-chat {
+    margin-right: 1em;
+}
+
+.dog-pic {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.dog-card {
+    position: relative;
+}
+
+.dog-info {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    margin-left: 0.5em;
+}
+
+.dog-name-age {
+    margin: 0;
+}
+
+.dog-phrase {
+    margin: 0 0 0.5em 0;
+}
+
+#dog-verdict {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    width: 40%;
+    transform: rotate(-45deg);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.cross-container,
+.hearth-container {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    
+    cursor: pointer;
+}
+
+.cross-container {
+    margin-right: 5em;
+}
+
+.cross-container:hover,
+.cross-container:focus {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+.hearth-container:hover,
+.hearth-container:focus {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+.hidden {
+    display: none;
+}
